@@ -221,3 +221,104 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: 15px !important;
 }
 }
+
+/* Increase chat height */
+.card {
+	height: 580px !important;
+}
+
+/* Typing indicator */
+.typing-indicator {
+	font-size: 12px;
+	color: rgba(255,255,255,0.7);
+	margin-left: 50px;
+	margin-bottom: 10px;
+	font-style: italic;
+	display: none;
+}
+
+/* Source badge */
+.source-badge {
+	display: inline-block;
+	margin-top: 6px;
+	padding: 2px 8px;
+	font-size: 10px;
+	background-color: rgba(0,0,0,0.25);
+	color: #fff;
+	border-radius: 10px;
+}
+
+/* Disclaimer footer */
+.disclaimer {
+	text-align: center;
+	font-size: 11px;
+	color: rgba(255,255,255,0.6);
+	padding: 6px 10px;
+	border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Dark mode toggle */
+.dark-toggle {
+	position: absolute;
+	right: 15px;
+	top: 12px;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+}
+
+/* Light mode */
+.light-mode body {
+	background: #f1f1f1 !important;
+}
+
+.light-mode .card {
+	background-color: #ffffff !important;
+}
+
+.light-mode .msg_cotainer {
+	background-color: #e3f2fd;
+	color: #000;
+}
+
+.light-mode .msg_cotainer_send {
+	background-color: #d4edda;
+	color: #000;
+}
+
+.light-mode .user_info span,
+.light-mode .user_info p {
+	color: #000;
+}
+/* Dark mode toggle visibility fix */
+.dark-toggle {
+	color: white;
+}
+
+/* Light mode toggle icon color */
+.light-mode .dark-toggle {
+	color: #333; /* dark grey, clearly visible */
+}
+
+/* Optional: hover effect */
+.dark-toggle:hover {
+	opacity: 0.8;
+}
+
+/* Light mode input bar styling */
+.light-mode .type_msg {
+	background-color: #f0f8ff !important; /* soft medical blue */
+	color: #000 !important;
+	border: 1px solid #d0e6f7 !important;
+}
+
+/* Light mode send button */
+.light-mode .send_btn {
+	background-color: #4da3ff !important;
+	color: white !important;
+}
+
+/* Placeholder text */
+.light-mode .type_msg::placeholder {
+	color: #666;
+}
