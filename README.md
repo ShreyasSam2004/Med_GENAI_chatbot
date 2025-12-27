@@ -1,6 +1,6 @@
 # Med_GENAI_chatbot
 
-# 218085830711.dkr.ecr.us-east-1.amazonaws.com/medicalbot
+
 
 # Medical Chatbot 🏥🤖
 
